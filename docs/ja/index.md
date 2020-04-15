@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ja_top
 redirect_from: "/"
 ---
 
