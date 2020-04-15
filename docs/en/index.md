@@ -2,12 +2,10 @@
 
 ![Tasks for Wrike](src/logo_animation.gif)
 
-
-
 ## What's "Wrike"?
 
 Wrike is ---
-[Official Homepage](wrike.com)
+[Official Homepage](https://wrike.com)
 
 ## What's "Tasks for Wrike"?
 
