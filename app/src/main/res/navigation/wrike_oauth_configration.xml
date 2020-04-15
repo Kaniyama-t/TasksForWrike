@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/wrike_oauth_configration"
+    app:startDestination="@id/topFragment">
+
+    <fragment
+        android:id="@+id/topFragment"
+        android:name="net.kaniyama.apps.wriketask.Wrike.Oauth20.ui.TopFragment"
+        android:label="Wrikeアカウント設定" >
+        <action
+            android:id="@+id/action_topFragment_to_authoricationRequestFragment"
+            app:destination="@+id/authoricationRequestFragment"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:exitAnim="@anim/fragment_open_exit"
+            app:popEnterAnim="@anim/fragment_open_enter"
+            app:popExitAnim="@anim/fragment_open_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/authoricationRequestFragment"
+        android:name="net.kaniyama.apps.wriketask.Wrike.Oauth20.ui.AuthoricationRequestFragment"
+        android:label="Wrikeアカウントと連携" >
+        <action
+            android:id="@+id/action_authoricationRequestFragment_to_exchangingCodeFragment"
+            app:destination="@id/exchangingCodeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exchangingCodeFragment"
+        android:name="net.kaniyama.apps.wriketask.Wrike.Oauth20.ui.ExchangingCodeFragment"
+        android:label="アカウント認証中" >
+        <action
+            android:id="@+id/action_exchangingCodeFragment_to_testingAccessTokenFragment"
+            app:destination="@id/testingAccessTokenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testingAccessTokenFragment"
+        android:name="net.kaniyama.apps.wriketask.Wrike.Oauth20.ui.TestingAccessTokenFragment"
+        android:label="通信テスト中" >
+        <action
+            android:id="@+id/action_testingAccessTokenFragment_to_setupFinishedFragment"
+            app:destination="@id/setupFinishedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/setupFinishedFragment"
+        android:name="net.kaniyama.apps.wriketask.Wrike.Oauth20.ui.SetupFinishedFragment"
+        android:label="設定完了|情報取得中" />
+</navigation>

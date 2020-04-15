@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Wrike.Oauth20.ConfigurationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- / ヘッダー /-->
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/headerWrapper"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/startup_desk"
+                    android:tint="#90000000" />
+
+                <LinearLayout
+                    android:id="@+id/headerWrapper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:id="@+id/headerTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="利用規約の確認"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22sp" />
+
+                    <com.shuhart.stepview.StepView
+                        android:id="@+id/headerStepView"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:sv_animationType="All" />
+
+                    <TextView
+                        android:id="@+id/headerHint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="利用規約を確認し、次へを押してください。"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <fragment
+            android:id="@+id/contentLayout"
+            android:name="net.kaniyama.apps.wriketask.Wrike.Oauth20.ui.TopFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/wrike_oauth_configration" />
+
+    </LinearLayout>
+
+</ScrollView>
