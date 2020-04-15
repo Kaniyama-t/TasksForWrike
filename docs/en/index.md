@@ -1,11 +1,11 @@
 # Tasks for Wrike
 
-![Tasks for Wrike](http://tasks.kaniyama.net/src/logo_animation.gif)
+![Tasks for Wrike](https://tasks.kaniyama.net/src/logo_animation.gif)
 
 ## What's "Wrike"?
 
 Wrike is ---
-[Official Homepage](https://wrike.com)
+[Official Homepage](https://www.wrike.com)
 
 ## What's "Tasks for Wrike"?
 

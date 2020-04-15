@@ -2,10 +2,10 @@
 layout: redirected
 sitemap: false
 permalink: /
-redirect_to: http://tasks.kaniyama.net/ja/
+redirect_to: https://tasks.kaniyama.net/ja/
 ---
 
 ## Please select language.
 
-- [Japanese(Mainly)](http://tasks.kaniyama.net/ja/)
-- [English](http://tasks.kaniyama.net/en/)
+- [Japanese(Mainly)](https://tasks.kaniyama.net/ja/)
+- [English](https://tasks.kaniyama.net/en/)

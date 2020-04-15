@@ -4,7 +4,7 @@ redirect_from: "/"
 
 # Tasks for Wrike
 
-![Tasks for Wrike](http://tasks.kaniyama.net/src/logo_animation.gif)
+![Tasks for Wrike](https://tasks.kaniyama.net/src/logo_animation.gif)
 
 ## "Wrike"について
 
@@ -25,4 +25,4 @@ Wrikeは、Wrike(社)が提供するタスク管理ツールです。 詳しく�
 
 ## Other Languages
 
-[English](http://tasks.kaniyama.net/en/)
+[English](https://tasks.kaniyama.net/en/)
