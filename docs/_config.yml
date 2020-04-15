@@ -2,3 +2,13 @@ theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-redirect-from
+
+title:
+  Tasks for Wrike
+description:
+  TODOリストライクなWrikeクライアントアプリ
+
+contribute_btn:
+  show_button: true
+  btn_url:
+  btn_text: Trying use
