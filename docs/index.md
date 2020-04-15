@@ -2,7 +2,7 @@
 layout: redirected
 sitemap: false
 permalink: /
-redirect_to:  /ja/
+redirect_to: http://tasks.kaniyama.net/ja/
 ---
 
 ## Please select language.
