@@ -8,7 +8,6 @@ title:
 description:
   TODOリストライクなWrikeクライアントアプリ
 
-contribute_btn:
-  show_button: true
-  btn_url:
-  btn_text: Trying use
+tryinguse_btn:
+  show_button: false
+  btn_url: https://tasks.kaniyama.net/

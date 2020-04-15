@@ -3,9 +3,7 @@ layout: ja_top
 redirect_from: "/"
 ---
 
-# Tasks for Wrike
-
-![Tasks for Wrike](https://tasks.kaniyama.net/src/logo_animation.gif)
+![Tasks for Wrike](https://tasks.kaniyama.net/src/logo_animation_once.gif)
 
 ## "Wrike"について
 
@@ -15,6 +13,10 @@ Wrikeは、Wrike(社)が提供するタスク管理ツールです。 詳しく�
 ## "Tasks for Wrike"プロジェクトについて
 
 主に、WrikeをTODOリストとして使いたい方向けのクライアントアプリ開発プロジェクトです。本プロジェクトはWrike(社)提供の[Wrike API]()を用い、アプリ内完結で動作するよう設計します。
+
+## OSSへ参加くださる方へ
+
+支援を検討してくださりありがとうございます！詳細なやり方等は[contribute](contribute.md)を御覧ください。
 
 ## ライセンス
 

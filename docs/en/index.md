@@ -1,6 +1,6 @@
 # Tasks for Wrike
 
-![Tasks for Wrike](https://tasks.kaniyama.net/src/logo_animation.gif)
+![Tasks for Wrike](https://tasks.kaniyama.net/src/logo_animation_once.gif)
 
 ## What's "Wrike"?
 
